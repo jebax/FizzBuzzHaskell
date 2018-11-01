@@ -1,4 +1,4 @@
 module FizzBuzz where
 
-fizzbuzz :: Int -> String
-fizzbuzz n = "Fizz"
+fizzBuzz :: Int -> String
+fizzBuzz n = if n == 3 then "Fizz" else "Buzz"
