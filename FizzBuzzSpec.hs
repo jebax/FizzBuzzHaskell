@@ -11,3 +11,6 @@ main = hspec $ do
 
         it "returns 'Buzz' for a multiple of 5" $
             fizzBuzz 5 `shouldBe` "Buzz"
+
+        it "returns 'FizzBuzz' for a multiple of 3 and 5" $
+            fizzBuzz 15 `shouldBe` "FizzBuzz"
