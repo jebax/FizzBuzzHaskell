@@ -9,6 +9,5 @@ fizzBuzz n = if divisibleBy n 15
                         then "Fizz"
                         else show n
 
-
 divisibleBy :: Int -> Int -> Bool
 divisibleBy num divisor = num `mod` divisor == 0
