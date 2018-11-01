@@ -18,6 +18,9 @@ main = hspec $ do
         it "returns the string '1' for 1" $
             fizzBuzz 1 `shouldBe` "1"
 
+        it "returns the string '17' for 17" $
+            fizzBuzz 17 `shouldBe` "17"
+
         it "works for large multiples of 3" $
             fizzBuzz 30003 `shouldBe` "Fizz"
 
