@@ -1,4 +1,4 @@
 module FizzBuzz where
 
 fizzBuzz :: Int -> String
-fizzBuzz n = show 0
+fizzBuzz n = if n < 1 then show 0 else show 1
