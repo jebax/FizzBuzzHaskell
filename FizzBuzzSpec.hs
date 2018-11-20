@@ -30,3 +30,6 @@ main = hspec $ do
 
     it "returns the string FizzBuzz for the number 15" $
       fizzBuzz 15 `shouldBe` "FizzBuzz"
+
+    it "returns the string FizzBuzz for the number 30" $
+      fizzBuzz 30 `shouldBe` "FizzBuzz"
