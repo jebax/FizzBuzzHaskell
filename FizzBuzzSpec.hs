@@ -24,3 +24,6 @@ main = hspec $ do
 
     it "returns the string Fizz for the number 6" $
       fizzBuzz 6 `shouldBe` "Fizz"
+
+    it "returns the string Buzz for the number 10" $
+      fizzBuzz 10 `shouldBe` "Buzz"
